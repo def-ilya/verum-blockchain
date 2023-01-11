@@ -1,6 +1,9 @@
 _View Live:_
 https://verum-blockchain.vercel.app/
 
+_Build Video:_
+https://www.youtube.com/watch?v=IqW-5D04kwo
+
 **How to Deploy:**
 1. Copy Git repo
 2. Create environment variables as follows:
