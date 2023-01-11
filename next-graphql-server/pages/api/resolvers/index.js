@@ -14,7 +14,9 @@ export const resolvers = {
   Query: {
     updateTokens: async (_, args) => {
       try {
-        const tokens = await fetch(`${process.env.API_URL}${args.id}/tokens`)
+        const tokens = await fetch(
+          `${process.env.INCH_API_URL}${args.id}/tokens`
+        )
           .then((res) => res.json())
           .then((data) => {
             const formatted = Object.values(data.tokens);
@@ -175,7 +177,7 @@ export const resolvers = {
     },
     checkBlockchain: async (_, args) => {
       try {
-        return await fetch(`${process.env.API_URL}${args.id}/healthcheck`)
+        return await fetch(`${process.env.INCH_API_URL}${args.id}/healthcheck`)
           .then((res) => res.json())
           .then((data) => data);
       } catch (err) {
