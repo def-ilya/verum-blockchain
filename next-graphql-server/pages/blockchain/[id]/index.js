@@ -62,7 +62,7 @@ const Blockchain = () => {
         alignContent={"center"}
         justifyContent={"center"}
       >
-        <Text margin={"auto"}>Couldn't find this blockchain.</Text>
+        <Text margin={"auto"}>Couldn&apos;t find this blockchain.</Text>
       </Flex>
     );
   return (

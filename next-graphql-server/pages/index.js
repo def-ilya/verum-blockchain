@@ -46,7 +46,7 @@ export default function Home({ blockchains }) {
       {items.length < 1 && (
         <Center width="100vw" height="80vh">
           <Text fontSize={18}>
-            Doesn't look like there's anything here.{" "}
+            Doesn&apos;t look like there&apos;s anything here.{" "}
             <Link color="teal" href="/add-blockchain">
               Try add a blockchain.
             </Link>
