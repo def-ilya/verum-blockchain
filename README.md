@@ -1,6 +1,9 @@
 _View Live:_
 https://verum-blockchain.vercel.app/
 
+_Build Video:_
+https://www.youtube.com/watch?v=IqW-5D04kwo
+
 **How to Deploy:**
 1. Copy Git repo
 2. Create environment variables as follows:
@@ -12,4 +15,3 @@ https://verum-blockchain.vercel.app/
 3. Run ```npm run dev``` to run in development environment.
 4. To deploy production, use Netlify/Vercel.
 5. Make sure to change the NEXT_PUBLIC_API_URL to your domain.
-
