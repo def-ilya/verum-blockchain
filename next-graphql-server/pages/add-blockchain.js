@@ -65,7 +65,7 @@ export default function AddBlockchain() {
           onChange={handleInputChange}
         />
         <FormHelperText>
-          Fill in the Blockchain's details. You can get these from 1inch.
+          Fill in the Blockchain&apos;s details. You can get these from 1inch.
         </FormHelperText>
 
         <Button mt={4} colorScheme="teal" type="submit" onClick={submitForm}>
