@@ -87,7 +87,8 @@ export default function Home({ blockchains }) {
                     (new Date() - new Date(item.last_updated)) /
                     60 /
                     1000
-                  ).toFixed(0) + " minutes ago"}
+                  ).toFixed(0)}{" "}
+                  minutes ago
                 </Badge>
               </CardBody>
               <CardFooter>
